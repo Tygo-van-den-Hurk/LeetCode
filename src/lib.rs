@@ -6,3 +6,5 @@
 //!
 //! [leetcode]: https://redirects.tygo.van.den.hurk.dev/leetcode
 //!
+
+pub mod longest_common_prefix;
