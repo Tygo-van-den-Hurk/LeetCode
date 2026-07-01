@@ -3,6 +3,10 @@
 result
 result-*
 
+# direnv
+
+.direnv
+
 # Rust
 
 debug
