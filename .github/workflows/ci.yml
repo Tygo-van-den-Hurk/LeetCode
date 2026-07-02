@@ -1,0 +1,30 @@
+on:
+  push:
+    branches: [main, master, release, development]
+    paths: [src/**/*.rs, Cargo.*, "**/*.lock", "**/*.nix"]
+  pull_request:
+    branches: [main, master, release, development]
+    types: [opened, synchronize, reopened]
+    paths: [src/**/*.rs, Cargo.*, "**/*.lock", "**/*.nix"]
+  workflow_dispatch:
+
+env:
+  NIX_SYSTEM_CMD: nix eval --raw --impure --expr "builtins.currentSystem"
+
+jobs:
+  check:
+    name: CI
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Install Nix using cachix
+        uses: cachix/install-nix-action@630ae543ea3a38a9a4166f03376c02c50f408342 # v31.11.0
+      - name: Set Nix system env variable
+        run: echo "system=$(eval $NIX_SYSTEM_CMD)" >> "$GITHUB_ENV"
+      - name: Check the formatting
+        run: nix build "$PWD#checks.$system.cargo-fmt" --print-build-logs
+      - name: Check for linting issues
+        run: nix build "$PWD#checks.$system.cargo-clippy" --print-build-logs
+      - name: Check code tests
+        run: nix build "$PWD#checks.$system.cargo-test" --print-build-logs
