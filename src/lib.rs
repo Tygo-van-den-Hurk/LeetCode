@@ -9,3 +9,4 @@
 
 pub mod longest_common_prefix;
 pub mod merge_two_sorted_lists;
+pub mod plus_one;
