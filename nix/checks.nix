@@ -24,7 +24,7 @@
         {
           src = ../.;
           meta.description = "Ensure code passes all tests.";
-          buildInputs = with pkgs; [ 
+          buildInputs = with pkgs; [
             stdenv.cc
             cargo
             rustc
