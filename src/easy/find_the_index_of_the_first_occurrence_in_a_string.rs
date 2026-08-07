@@ -1,9 +1,22 @@
 //! # Find the Index of the First Occurrence in a String
-//! 
+//!
 //! Given two strings needle and haystack, return the index of the first
 //! occurrence of needle in haystack, or -1 if needle is not part of
 //! haystack.
-//! 
+//!
+//! ```
+//! # use leetcode::easy;
+//! # use easy::find_the_index_of_the_first_occurrence_in_a_string;
+//! # use find_the_index_of_the_first_occurrence_in_a_string::Solution;
+//!
+//! let haystack = "sadbutsad".to_string();
+//! let needle = "sad".to_string();
+//! assert_eq!(Solution::str_str(haystack, needle), 0);
+//!
+//! let haystack = "leetcode".to_string();
+//! let needle = "leeto".to_string();
+//! assert_eq!(Solution::str_str(haystack, needle), -1);
+//! ```
 
 pub struct Solution;
 
@@ -30,8 +43,8 @@ impl Solution {
                 return start as i32;
             }
         }
-        
-        return -1
+
+        return -1;
     }
 }
 
