@@ -49,7 +49,7 @@ impl Solution {
             }
         }
 
-        return size;
+        size
     }
 }
 
