@@ -7,6 +7,7 @@
 //! [leetcode]: https://redirects.tygo.van.den.hurk.dev/leetcode
 //!
 
+pub mod easy;
 pub mod longest_common_prefix;
 pub mod merge_two_sorted_lists;
 pub mod plus_one;
