@@ -9,4 +9,5 @@ pub mod length_of_last_word;
 pub mod longest_common_prefix;
 pub mod merge_two_sorted_lists;
 pub mod plus_one;
+pub mod remove_duplicates_from_sorted_list;
 pub mod search_insert_position;
