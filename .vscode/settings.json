@@ -15,6 +15,7 @@
     "pkgs",
     "rustc",
     "sadbutsad",
+    "srcset",
     "stdenv",
     "treefmt",
     "Tygo",
