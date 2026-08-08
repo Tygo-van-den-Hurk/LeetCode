@@ -8,7 +8,6 @@
 //!
 //! ```
 //! # use leetcode::easy::length_of_last_word::Solution;
-//!
 //! let input = "Hello World".to_string();
 //! let expected = 5;
 //! let result = Solution::length_of_last_word(input);

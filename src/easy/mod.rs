@@ -3,6 +3,7 @@
 //! The list of easy problems I solved.
 //!
 
+pub mod add_binary;
 pub mod find_the_index_of_the_first_occurrence_in_a_string;
 pub mod length_of_last_word;
 pub mod longest_common_prefix;

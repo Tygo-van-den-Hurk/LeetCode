@@ -8,7 +8,6 @@
 //! # use leetcode::easy;
 //! # use easy::find_the_index_of_the_first_occurrence_in_a_string;
 //! # use find_the_index_of_the_first_occurrence_in_a_string::Solution;
-//!
 //! let haystack = "sadbutsad".to_string();
 //! let needle = "sad".to_string();
 //! assert_eq!(Solution::str_str(haystack, needle), 0);
