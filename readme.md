@@ -35,8 +35,10 @@
 
 # Leetcode
 
-[LeetCode](https://leetcode.com/) is an online platform to solve coding exercises on. This repository is the place where I work on them, and store my solutions as I learn. You can follow my progress by following [me on leetcode](https://redirects.tygo.van.den.hurk.dev/leetcode).
+[LeetCode](https://leetcode.com/) is an online platform to solve coding exercises on. They have thousands of problems to practice of three difficulties: easy, medium, and hard. I practice these for fun, and for later when I will need to show these on an job interview.
 
-## What is LeetCode?
+This repository is the place where I work on them, and store my solutions as I learn. You can follow my progress by following [me on leetcode](https://redirects.tygo.van.den.hurk.dev/leetcode).
 
-LeetCode is a website practicing coding interview questions. They have thousands of problems to practice of three difficulties: easy, medium, and hard. I practice these for fun, and for later when I will need to show these on an job interview.
+I mainly practice my general programming skills and learn [Rust](https://rust-lang.org/). There are however some entries for the [shell challenges category](https://leetcode.com/problemset/shell/) in [`scripts`](./scripts/) for fun. 
+
+The goal right now is mainly to improve rather then to be perfect.
