@@ -2,7 +2,7 @@
   <a href="https://leetcode.com/">
     <picture>
       <source srcset="./assets/leetcode.black.svg" media="(prefers-color-scheme: light)" />
-      <img src="./assets/leetcode.white.svg" alt="The leetcode logo." width="64rem">
+      <img src="./assets/leetcode.white.svg" alt="The leetcode logo." height="96rem">
     </picture>
   </a>
   <br>
