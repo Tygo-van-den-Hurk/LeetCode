@@ -36,7 +36,6 @@ impl TreeNode {
 pub struct Solution;
 
 impl Solution {
-
     /// Given the root of a binary tree, return the inorder traversal of its
     /// nodes' values.
     pub fn inorder_traversal(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
