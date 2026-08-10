@@ -4,6 +4,7 @@
 //!
 
 pub mod add_binary;
+pub mod balanced_binary_tree;
 pub mod binary_tree_inorder_traversal;
 pub mod find_the_index_of_the_first_occurrence_in_a_string;
 pub mod length_of_last_word;
