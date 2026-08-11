@@ -8,6 +8,7 @@ pub mod balanced_binary_tree;
 pub mod binary_tree_inorder_traversal;
 pub mod convert_sorted_array_to_binary_search_tree;
 pub mod find_the_index_of_the_first_occurrence_in_a_string;
+pub mod jewels_and_stones;
 pub mod length_of_last_word;
 pub mod longest_common_prefix;
 pub mod maximum_depth_of_binary_tree;
